@@ -29,7 +29,8 @@ for i in range(1, 8):
                                 'type' : 'json',
                                 'numOfRows' : '1000',
                                 'pageNo' : str(i),
-                                'sgmtType' : '01',
+                                'sgmtType' : '01', # high resolution
+#                                 'sgmtType : '02', # mid resolution
                                 'startDt' : '2021-07-01',
                                 'endDt' : '2021-12-31' }
 
